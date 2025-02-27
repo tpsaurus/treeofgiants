@@ -1,0 +1,59 @@
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 5 5px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.project {
+  background-color: #663300;
+  color: #EA7E38;
+  display: inline-block;
+  padding: 35px;
+  margin: 15px;
+  border-style: ridge;
+  border-width: 10px;
+  border-radius: 15px;
+  border-color: #341a00
+}
+
+.lesser {
+  background-image: url('image.png');
+  background-repeat: no-repeat;
+  background-size:16px 16px;
+  padding-left: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.hopeanddream{
+  background-color: #5cA904;
+  border-radius: 25px;
+  border-width: 5px;
+  border-style:hidden;
+  /* width: 80%; */
+  padding: 15px;
+  margin: 10px;
+}

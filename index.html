@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to the Tree of Giants</h1>
+    <q>
+        If I have seen further it is by standing on the shoulders of Giants.
+        - Issac Newton
+    </q>
+    <button type="button" class="collapsible">Random Ranting</button>
+    <div class="content">
+        <p>Behold the will of lost aeons. Behold the unending pain and suffering.</p>
+        <p>Behold the will to keep living. Behold the dream of Eternity.</p>
+        <p>Behold the Glory of the Will to Live</p>
+    </div>
+    
+    <h2>Projects I've Done</h2>
+    <button type="button" class="collapsible">Key</button>
+    <div class="content">
+        <p>Behold the will of lost aeons. Behold the unending pain and suffering.</p>
+        <p>Behold the will to keep living. Behold the dream of Eternity.</p>
+        <p>Behold the Glory of the Will to Live</p>
+    </div>
+    <div class="container">
+        <div class="project">
+            <span class="lesser">PF2e Tools</span>
+            <p>A minor set of tools written in python for mathing out Pathfinder 2nd Edition!</p>
+            <a>Click here to find out more!</a>
+        </div>
+        
+    </div>
+    <h2> Hopes and Dreams</h2>
+    <span style="display: grid;
+  grid-template-columns: auto auto auto auto;">
+    <div class="hopeanddream", onclick="location.href='https://www.mit.edu/';">
+        <h3>Massachusetts Institute of Technology(MIT)</h3>
+        <p>Bruh I cannot explain how much i love this place. From what i've seen it's just great. The feeling of cracking minds on psets with friends- perfect!
+            Working together to cause change- Great! Messing around with random hacks- lol.
+            
+        </p>
+        <i class="fa-solid fa-arrow-up-right-from-square" id="redirect" style="display: none;" aria-hidden="true"></i>
+        
+    </div>
+    <img src="mit.png" style="margin-right:15px;border-radius: 25px;
+    border-width: 5px;
+    border-style:hidden;"\>
+</span>
+    <script>
+
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+</body>
+
+</html>
