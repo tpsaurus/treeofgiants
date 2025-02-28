@@ -30,7 +30,7 @@
   color: #EA7E38;
   display: inline-block;
   padding: 35px;
-  margin: 15px;
+  margin: 10px;
   border-style: ridge;
   border-width: 10px;
   border-radius: 15px;
@@ -55,5 +55,8 @@
   border-style:hidden;
   /* width: 80%; */
   padding: 15px;
+  margin: 10px;
+}
+h2 {
   margin: 10px;
 }
